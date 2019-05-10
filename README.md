@@ -8,8 +8,8 @@ Dataset can be downloaded from https://s3.amazonaws.com/video.udacity-data.com/t
 ### Model description
 Code for the LSTM is provided in the notebook Word2Vec.ipynb. The model is created in the class named SkipGram.
 1. Model Structure
-     * We are using skip gram Word2Vec model with 300 dimension embedding layer followed by log_softmax
-     * Cosine similarity is used to find words with similar context on each epoch
+     * We are using skip gram Word2Vec model with 300 dimension embedding layer followed by log_softmax.
+     * Cosine similarity is used to find words with similar context on each epoch.
   
 2. Loss : Negative Log Likelihood Loss.
 
